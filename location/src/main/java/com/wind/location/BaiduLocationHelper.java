@@ -125,7 +125,7 @@ public class BaiduLocationHelper extends AbsLocationHelper {
             //获取经纬度坐标类型，以LocationClientOption中设置过的坐标类型为准
 
             int errorCode = location.getLocType();
-           // Log.e("BAIDU","onReceiveLocation:"+errorCode);//161	161	网络定位成功
+            Log.e("BAIDU","onReceiveLocation:"+errorCode);//161	161	网络定位成功
 
             //获取定位类型、定位错误返回码，具体信息可参照类参考中BDLocation类中的说明
             LocationInfo locationInfo=new LocationInfo();
